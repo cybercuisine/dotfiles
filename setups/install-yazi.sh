@@ -9,4 +9,4 @@ brew install fzf
 brew install zoxide
 brew install imagemagick
 
-cp -r .bin/yazi ~/.config/
+cp -r .config/yazi ~/.config/
