@@ -27,6 +27,6 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 . "$HOME/.cargo/env"
 # eval $(/bin/brew shellenv)
-eval "$(oh-my-posh init bash --config ~/.config/posh-omp/tokyo.omp.json)"
+eval "$(oh-my-posh init bash --config ~/.config/posh-themes/presets/tokyo.omp.json)"
 PROMPT_COMMAND='echo; _omp_hook'
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
